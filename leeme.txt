@@ -1,0 +1,35 @@
+Joseba Epalza <jepalza@gmail.com> 
+
+[img]http://drive.google.com/uc?export=view&id=1x5JUre10bGK1JttQg3zQodiDYDMO9F4K[/img]
+
+Using this code, with my own interpretation:
+https://github.com/salinda93/OutRunGameB
+
+Did make several changes in order to simplify the code, and get one more simple code.
+This example is only with freebasic code, no external libraries, only road, no sprites:
+[code]
+[/code]
+
+
+And this one is with sprites using external libraries to get textures in PNG format and sprites routine scale:
+https://www.freebasic.net/forum/viewtopic.php?t=24479 (thanks to Joshy "D.J.Peters")
+This code has a bug when the textures are behind the hills. They should be trimmed in height, but it's just a demo.  
+[code]
+[/code]
+
+And this is the best result, using CSFML (again, thanks to Joshy "D.J.Peters" ;-) ):
+https://www.freebasic.net/forum/viewtopic.php?t=26678
+[code]
+[/code]
+
+
+A curious detail: 
+if you download the new version 2.5.1 of CSFML from:
+https://www.sfml-dev.org/download/csfml/
+And you take the "new" DLLs (version 2.5) the code works much faster than with the original DLLs version 2.2. ;-)
+
+Use cursors for move, and CTRL for max speed. 'Q' and 'A' for up and down terrain hight.
+
+
+You can get full code and images from my "google drive":
+
